@@ -1,0 +1,11 @@
+D:\Library_manager(full)\QuanlythuvienDHCNQN\bin\Debug\QuanlythuvienDHCNQN.exe.config
+D:\Library_manager(full)\QuanlythuvienDHCNQN\bin\Debug\QuanlythuvienDHCNQN.exe
+D:\Library_manager(full)\QuanlythuvienDHCNQN\bin\Debug\QuanlythuvienDHCNQN.pdb
+D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.csproj.AssemblyReference.cache
+D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.FORMS.Dashboard_From.resources
+D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.FORMS.Login_Form.resources
+D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.Properties.Resources.resources
+D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.csproj.GenerateResource.cache
+D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.csproj.CoreCompileInputs.cache
+D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.exe
+D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.pdb
