@@ -47,5 +47,18 @@ namespace QuanlythuvienDHCNQN.FORMS
             Login_Form lgf = new Login_Form(this);
             lgf.Show();
         }
+
+        private void button_genres_Click(object sender, EventArgs e)
+        {
+
+            // show the manager genres from
+            ManagerGenresFrom mngGnrF = new ManagerGenresFrom();
+            mngGnrF.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

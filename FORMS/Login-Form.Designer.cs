@@ -75,33 +75,35 @@ namespace QuanlythuvienDHCNQN.FORMS
             // textBox_password
             // 
             this.textBox_password.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_password.Location = new System.Drawing.Point(105, 203);
-            this.textBox_password.Multiline = true;
+            this.textBox_password.Location = new System.Drawing.Point(99, 203);
             this.textBox_password.Name = "textBox_password";
-            this.textBox_password.Size = new System.Drawing.Size(488, 60);
+            this.textBox_password.Size = new System.Drawing.Size(488, 58);
             this.textBox_password.TabIndex = 5;
+            this.textBox_password.Text = "00000";
+            this.textBox_password.UseSystemPasswordChar = true;
             // 
             // pictureBox_Pass
             // 
-            this.pictureBox_Pass.BackColor = System.Drawing.Color.Lime;
+            this.pictureBox_Pass.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.pictureBox_Pass.Location = new System.Drawing.Point(33, 203);
             this.pictureBox_Pass.Name = "pictureBox_Pass";
             this.pictureBox_Pass.Size = new System.Drawing.Size(60, 60);
             this.pictureBox_Pass.TabIndex = 4;
             this.pictureBox_Pass.TabStop = false;
+            this.pictureBox_Pass.Click += new System.EventHandler(this.pictureBox_Pass_Click);
             // 
             // textBox_username
             // 
             this.textBox_username.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_username.Location = new System.Drawing.Point(105, 124);
-            this.textBox_username.Multiline = true;
+            this.textBox_username.Location = new System.Drawing.Point(99, 126);
             this.textBox_username.Name = "textBox_username";
-            this.textBox_username.Size = new System.Drawing.Size(488, 60);
+            this.textBox_username.Size = new System.Drawing.Size(488, 58);
             this.textBox_username.TabIndex = 3;
+            this.textBox_username.Text = "nothing";
             // 
             // pictureBox_User
             // 
-            this.pictureBox_User.BackColor = System.Drawing.Color.Lime;
+            this.pictureBox_User.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.pictureBox_User.Location = new System.Drawing.Point(33, 124);
             this.pictureBox_User.Name = "pictureBox_User";
             this.pictureBox_User.Size = new System.Drawing.Size(60, 60);
