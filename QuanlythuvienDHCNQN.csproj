@@ -104,6 +104,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CLASSES\AUTHOR.cs" />
     <Compile Include="CLASSES\GENRE.cs" />
     <Compile Include="FORMS\Dashboard-From.cs">
       <SubType>Form</SubType>
@@ -116,6 +117,12 @@
     </Compile>
     <Compile Include="FORMS\Login-Form.Designer.cs">
       <DependentUpon>Login-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\ManagerAuthors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\ManagerAuthors.Designer.cs">
+      <DependentUpon>ManagerAuthors.cs</DependentUpon>
     </Compile>
     <Compile Include="FORMS\ManagerGenresFrom.cs">
       <SubType>Form</SubType>
@@ -131,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\Login-Form.resx">
       <DependentUpon>Login-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\ManagerAuthors.resx">
+      <DependentUpon>ManagerAuthors.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORMS\ManagerGenresFrom.resx">
       <DependentUpon>ManagerGenresFrom.cs</DependentUpon>
@@ -168,6 +178,7 @@
     <Content Include="IMAGES\loop.png" />
     <Content Include="IMAGES\plus.png" />
     <Content Include="IMAGES\trash.png" />
+    <Content Include="IMAGES\typewrite.png" />
     <Content Include="IMAGES\user.png" />
     <Content Include="IMAGES\users.png" />
     <Content Include="IMAGES\book.png" />

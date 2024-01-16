@@ -56,9 +56,11 @@ namespace QuanlythuvienDHCNQN.FORMS
             mngGnrF.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button_authors_Click(object sender, EventArgs e)
         {
-
+            // show the manager genres from
+            ManagerAuthors mngAthF = new ManagerAuthors();
+            mngAthF.Show();
         }
     }
 }

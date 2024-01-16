@@ -37,19 +37,52 @@ namespace QuanlythuvienDHCNQN.CLASSES
         // create a function to edit a genre
         public Boolean editGenre(int id, string name)
         {
-            return true;
+            string query = "UPDATE `genres` SET `name`=@genre_name WHERE `id`= @id";
+
+            MySqlParameter[] paramters = new MySqlParameter[2];
+            paramters[0] = new MySqlParameter("@genre_name", MySqlDbType.VarChar);
+            paramters[0].Value = name;
+
+            paramters[1] = new MySqlParameter("@id", MySqlDbType.Int32);
+            paramters[1].Value = id;
+
+            if (db.setData(query, paramters) == 1)
+            {
+                return true;
+
+            }
+            else
+            {
+                return false;
+            }
         }
 
         // create a function to remove a genre
         public Boolean removeGenre(int id)
         {
-            return true;
+            string query = "DELETE FROM `genres` WHERE `id`=@id";
+
+            MySqlParameter[] paramters = new MySqlParameter[1];
+            paramters[0] = new MySqlParameter("@id", MySqlDbType.Int32);
+            paramters[0].Value = id;
+
+            if (db.setData(query, paramters) == 1)
+            {
+                return true;
+
+            }
+            else
+            {
+                return false;
+            }
         }
 
         // create a function to return table of genres
         public DataTable GenresList()
         {
-            return new DataTable();
+            DataTable table = new DataTable();
+            table = db.getData("SELECT * FROM `genres`", null);
+            return table;
         }
 
     }

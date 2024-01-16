@@ -141,6 +141,7 @@ namespace QuanlythuvienDHCNQN.FORMS
             this.button_authors.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_authors.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button_authors.UseVisualStyleBackColor = true;
+            this.button_authors.Click += new System.EventHandler(this.button_authors_Click);
             // 
             // button_genres
             // 

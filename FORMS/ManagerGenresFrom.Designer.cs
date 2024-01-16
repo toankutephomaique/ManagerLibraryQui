@@ -78,7 +78,7 @@ namespace QuanlythuvienDHCNQN.FORMS
             // 
             // button_edit
             // 
-            this.button_edit.BackColor = System.Drawing.Color.Aquamarine;
+            this.button_edit.BackColor = System.Drawing.Color.White;
             this.button_edit.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_edit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -89,10 +89,11 @@ namespace QuanlythuvienDHCNQN.FORMS
             this.button_edit.Text = "Edit";
             this.button_edit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button_edit.UseVisualStyleBackColor = false;
+            this.button_edit.Click += new System.EventHandler(this.button_edit_Click);
             // 
             // button_delete
             // 
-            this.button_delete.BackColor = System.Drawing.Color.Aquamarine;
+            this.button_delete.BackColor = System.Drawing.Color.White;
             this.button_delete.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button_delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -103,10 +104,11 @@ namespace QuanlythuvienDHCNQN.FORMS
             this.button_delete.Text = "Delete";
             this.button_delete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button_delete.UseVisualStyleBackColor = false;
+            this.button_delete.Click += new System.EventHandler(this.button_delete_Click);
             // 
             // button_add
             // 
-            this.button_add.BackColor = System.Drawing.Color.Aquamarine;
+            this.button_add.BackColor = System.Drawing.Color.White;
             this.button_add.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.button_add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -121,6 +123,8 @@ namespace QuanlythuvienDHCNQN.FORMS
             // 
             // dataGridView_genres
             // 
+            this.dataGridView_genres.AllowUserToAddRows = false;
+            this.dataGridView_genres.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView_genres.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView_genres.Location = new System.Drawing.Point(650, 51);
             this.dataGridView_genres.Name = "dataGridView_genres";
@@ -128,6 +132,7 @@ namespace QuanlythuvienDHCNQN.FORMS
             this.dataGridView_genres.RowTemplate.Height = 24;
             this.dataGridView_genres.Size = new System.Drawing.Size(498, 265);
             this.dataGridView_genres.TabIndex = 6;
+            this.dataGridView_genres.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_genres_CellClick);
             // 
             // textBox_name
             // 
