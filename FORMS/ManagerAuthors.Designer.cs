@@ -50,6 +50,7 @@ namespace QuanlythuvienDHCNQN.FORMS
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label_header = new System.Windows.Forms.Label();
             this.label_close = new System.Windows.Forms.Label();
+            this.button_Show_Author_Books = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_authors)).BeginInit();
@@ -109,6 +110,7 @@ namespace QuanlythuvienDHCNQN.FORMS
             this.dataGridView_authors.RowTemplate.Height = 24;
             this.dataGridView_authors.Size = new System.Drawing.Size(661, 346);
             this.dataGridView_authors.TabIndex = 20;
+            this.dataGridView_authors.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_authors_CellClick);
             // 
             // label3
             // 
@@ -195,6 +197,7 @@ namespace QuanlythuvienDHCNQN.FORMS
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(50)))), ((int)(((byte)(67)))));
+            this.panel3.Controls.Add(this.button_Show_Author_Books);
             this.panel3.Controls.Add(this.button_delete);
             this.panel3.Controls.Add(this.button_edit);
             this.panel3.Controls.Add(this.button_add);
@@ -217,6 +220,7 @@ namespace QuanlythuvienDHCNQN.FORMS
             this.button_delete.Text = "Delete";
             this.button_delete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button_delete.UseVisualStyleBackColor = false;
+            this.button_delete.Click += new System.EventHandler(this.button_delete_Click);
             // 
             // button_edit
             // 
@@ -231,6 +235,7 @@ namespace QuanlythuvienDHCNQN.FORMS
             this.button_edit.Text = "Edit";
             this.button_edit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button_edit.UseVisualStyleBackColor = false;
+            this.button_edit.Click += new System.EventHandler(this.button_edit_Click);
             // 
             // button_add
             // 
@@ -295,6 +300,21 @@ namespace QuanlythuvienDHCNQN.FORMS
             this.label_close.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label_close.Click += new System.EventHandler(this.label_close_Click);
             // 
+            // button_Show_Author_Books
+            // 
+            this.button_Show_Author_Books.BackColor = System.Drawing.Color.White;
+            this.button_Show_Author_Books.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button_Show_Author_Books.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Show_Author_Books.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Show_Author_Books.Location = new System.Drawing.Point(3, 232);
+            this.button_Show_Author_Books.Name = "button_Show_Author_Books";
+            this.button_Show_Author_Books.Size = new System.Drawing.Size(183, 68);
+            this.button_Show_Author_Books.TabIndex = 11;
+            this.button_Show_Author_Books.Text = "Show Author Books";
+            this.button_Show_Author_Books.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button_Show_Author_Books.UseVisualStyleBackColor = false;
+            this.button_Show_Author_Books.Click += new System.EventHandler(this.button_Show_Author_Books_Click);
+            // 
             // ManagerAuthors
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -340,5 +360,6 @@ namespace QuanlythuvienDHCNQN.FORMS
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView_authors;
         private System.Windows.Forms.RichTextBox richTextBox_bio;
+        private System.Windows.Forms.Button button_Show_Author_Books;
     }
 }

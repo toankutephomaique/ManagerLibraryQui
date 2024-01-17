@@ -112,7 +112,7 @@ namespace QuanlythuvienDHCNQN.FORMS
             // 
             // label_close
             // 
-            this.label_close.BackColor = System.Drawing.Color.Red;
+            this.label_close.BackColor = System.Drawing.Color.Gold;
             this.label_close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label_close.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_close.Location = new System.Drawing.Point(560, 0);

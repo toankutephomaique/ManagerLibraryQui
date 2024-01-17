@@ -62,5 +62,12 @@ namespace QuanlythuvienDHCNQN.FORMS
             ManagerAuthors mngAthF = new ManagerAuthors();
             mngAthF.Show();
         }
+
+        private void button_books_Click(object sender, EventArgs e)
+        {
+            // show the manager books from
+            ManageBooksFrom mngBksF = new ManageBooksFrom();
+            mngBksF.Show();
+        }
     }
 }

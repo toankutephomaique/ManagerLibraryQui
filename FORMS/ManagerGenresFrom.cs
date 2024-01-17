@@ -108,22 +108,25 @@ namespace QuanlythuvienDHCNQN.FORMS
             try
             {
                 int id = Convert.ToInt32(textBox_id.Text);
-
+                // show a confirmaition message before deleting the author
+                if (MessageBox.Show("Do you Really Want To Delete This Genre?", "Confirmation Box", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
                     if (genre.removeGenre(id))
                     {
                         MessageBox.Show("Genre Deleted Successfully", "Delete Genre", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    // clear fields
-                    textBox_id.Text = "";
-                    textBox_name.Text = "";
+                        // clear fields
+                        textBox_id.Text = "";
+                        textBox_name.Text = "";
 
-                    //populate datagridview with genres
-                    dataGridView_genres.DataSource = genre.GenresList();
-                }
+                        //populate datagridview with genres
+                        dataGridView_genres.DataSource = genre.GenresList();
+                    }
                     else
                     {
                         MessageBox.Show("Genre Not Deleted", "Delete-Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
+                }
 
             }
             catch (Exception ex)

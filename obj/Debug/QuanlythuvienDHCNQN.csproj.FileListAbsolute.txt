@@ -45,3 +45,5 @@ D:\Library_manager(full)\QuanlythuvienDHCNQN\bin\Debug\MyQuiLib.pdb
 D:\Library_manager(full)\QuanlythuvienDHCNQN\bin\Debug\MyQuiLib.dll.config
 D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.FORMS.ManagerGenresFrom.resources
 D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.FORMS.ManagerAuthors.resources
+D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.FORMS.ManageBooksFrom.resources
+D:\Library_manager(full)\QuanlythuvienDHCNQN\obj\Debug\QuanlythuvienDHCNQN.FORMS.AuthorsListForm.resources
